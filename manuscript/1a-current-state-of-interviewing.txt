@@ -1,0 +1,21 @@
+# Current State of Interviewing
+
+## Typical Interview
+
+Many Silicon Valley tech companies follow the same playbook for interviews. A developer enters the recruiting pipeline by submitting a resume online or through a referral by a current employee. Someone from Human Resources filters resumes by a set of objective criteria, such as requiring candidates to have a Computer Science degree or previous work experience at a tech company.
+
+Candidates who pass this initial gate are scheduled for a phone screener with a member of the engineering team. This 30-60 minute call will often involve a candidate introduction with background questions, then move into a coding challenge to verify the candidate has basic knowledge of programming. Some example questions:
+
+- "What is the meaning of `this` in JavaScript?"
+- "What are the four ways you can add CSS to an HTML file?"
+- "What is the difference between the `===` and `==` operators in JavaScript?"
+
+These questions can create both **false negatives** and **false positives**. Some candidates may be excellent at programming but struggle to communicate their knowledge clearly; these questions may eliminate candidates who are otherwise qualified but are non-native speakers or struggle with anxiety. Similarly, some candidates may lack programming expertise but pass these questions because they have memorized answers; questions like "contrast React with Angular" may advance candidates who simply read tech news regularly.
+
+Candidates who pass the phone screener are invited to a final on-site interview. It is usually a four-hour, half-day process with four main interviews: the recruiter or HR interviews the candidate in person, the engineering manager does an initial 
+
+## Why We Got Here
+
+## What Has Changed in Our Industry
+
+## Why Outdated Interviews Hurt Engineering Teams

@@ -1,0 +1,7 @@
+# Who Is This Book Written For?
+
+## VP Engineering looking to improve velocity from the talent end
+
+## HR execlooking to improve hiring process (quality, retention, etc)
+
+## Architects and leads frustrated with false positives from algorithm whiteboarding
