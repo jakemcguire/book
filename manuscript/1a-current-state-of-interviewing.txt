@@ -12,7 +12,21 @@ Candidates who pass this initial gate are scheduled for a phone screener with a 
 
 These questions can create both **false negatives** and **false positives**. Some candidates may be excellent at programming but struggle to communicate their knowledge clearly; these questions may eliminate candidates who are otherwise qualified but are non-native speakers or struggle with anxiety. Similarly, some candidates may lack programming expertise but pass these questions because they have memorized answers; questions like "contrast React with Angular" may advance candidates who simply read tech news regularly.
 
-Candidates who pass the phone screener are invited to a final on-site interview. It is usually a four-hour, half-day process with four main interviews: the recruiter or HR interviews the candidate in person, the engineering manager does an initial 
+Candidates who pass the phone screener are invited to a final on-site interview. It is usually half-day process with four main interviews: an informational conversation with a recruiter or Human Resources employee to start and end the day, 60 minutes with an engineering manager to assess cultural fit, and two 60 minute "whiteboarding" interviews with developers.
+
+The whiteboard interviews get their name because candidates write code on a whiteboard in front of 1-2 developers. An example interview challenge might be, "Write a function that will take a string of text and return the most frequently used word." Interviewers are not just looking for functioning code, but also how the candidate structures the problem and communicates his or her thought process.
+
+An excellent candidate will ask some clarifying questions (e.g., "Can I assume the text is English? If not, how are words separated?" or "Would we consider an emoji a word?") then write some "pseudocode" to frame the approach before finally writing a full working example on the whiteboard. Excellent candidates will talk through their approach to the problem at each step. They will also write down some example data sets (e.g., testing the string "I wish that I wish I was") and expected outputs (e.g., "'I' should be the most common word in that sentence") to validate whether the code is working.
+
+Mediocre candidates will often quickly jump into writing code, then become confused midway through and backtrack to an earlier step. They will struggle silently and require interviewer prompting to think through the problem out loud. They usually do not think ahead about test cases, which causes them to develop a solution that won't work for an obvious use case (e.g., a sentence with only one word) or that won't work beyond a small scale.
+
+After the on-site interviews are complete, the engineering manager and interviewing developers will huddle with the recruiter to decide whether to extend a job offer. Many larger organizations will use a rubric to evaluate the candidate's performance, but smaller organizations often rely on intuition about how a candidate handled the technical portion of the interview. Both large and small organizations will rely on intuition for cultural fit -- a process that can lead to false negatives and unconscious bias towards otherwise qualified candidates.
+
+There are several problems with this whiteboarding interview process:
+
+*Candidates never touch a computer*. Many organizations will hire a developer whose full-time job is to write code on a computer -- without ever watching that developer actually write code on a computer.
+
+*Candidates are evaluated for skills that are not part of their role*. It is a fine skill to be able to communicate in front of an audience about programming, but the vast majority of developers spend their days working alone on a problem with occasional written collaboration in an email or merge request. The whiteboarding interview rewards a performative approach to a job that is often done in solitude.
 
 ## Why We Got Here
 
