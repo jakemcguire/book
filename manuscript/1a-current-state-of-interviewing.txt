@@ -24,9 +24,12 @@ After the on-site interviews are complete, the engineering manager and interview
 
 There are several problems with this whiteboarding interview process:
 
-*Candidates never touch a computer*. Many organizations will hire a developer whose full-time job is to write code on a computer -- without ever watching that developer actually write code on a computer.
+*Candidates never touch a computer*. Because of this interview procdess, many organizations will hire a developer without ever watching that developer actually write code on a computer. There are dozens of tools in front-end development that augment developer productivity -- IDEs, version control, package managers, build tools, frameworks, test runners, Continuous Deployment tools, etc -- but a whiteboard interview tests none of them. Two candidates may have the same performance answering trivia questions on a whiteboard, but vastly different productivity levels when they actually use the tools of the trade.
 
-*Candidates are evaluated for skills that are not part of their role*. It is a fine skill to be able to communicate in front of an audience about programming, but the vast majority of developers spend their days working alone on a problem with occasional written collaboration in an email or merge request. The whiteboarding interview rewards a performative approach to a job that is often done in solitude.
+*Candidates are evaluated for skills that are not part of their role*. It is a fine skill to be able to communicate in front of an audience about programming, but the vast majority of developers spend their days working alone on a problem with occasional written collaboration in an email or merge request. The whiteboarding interview rewards a performative approach that doesn't look like most software developers' day-to-day work.
+
+*Candidates are evaluated for rarely-used knowledge*. Similarly, it is great if a developer knows how hash tables work and can explain the improvement in algorithmic complexity that they offer, but front-end development work is rarely constrained by algorithmic complexity. The data structures and algorithms that are drilled into Computer Science undergraduate students is usually abstracted away during front-end development by tools and frameworks. (To return to our example, a JavaScript developer who implemented his or her own hash table would be very unwise -- you get the same functionality with an Object.)
+
 
 ## Why We Got Here
 
