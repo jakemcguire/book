@@ -33,6 +33,39 @@ There are several problems with this whiteboarding interview process:
 
 ## Why We Got Here
 
-## What Has Changed in Our Industry
+These interviews yield some helpful information -- and they may be helpful for evaluating other programming skill sets -- but they are ill-suited for evaluating web developers. So why does the industry use those interview questions to evaluate web developers? There are three big reasons:
+
+### Computing Has Changed
+
+Until very recently, applications were frequently constrained by memory and processing speed. Understanding algorithmic complexity and optimizing computations could have enormous consequences for profitability. Engineers needed to squeeze as much out of their servers as possible because buying extra servers was expensive and time-consuming.
+
+There were two big changes a decade ago: the rise of distributed computing (including both cloud computing and mobile devices in everyone's pocket) and the ubiquity of high-speed internet. Suddenly device memory constraints became much less important. Instead of squeezing every optimization out of a physical device, computations could be sent from devices off to a server farm for processing then sent back to the user's device. A poorly-optimized process would no longer constrain an application's throughput when it reached a single server's capacity -- processes could be parallelized and distributed, costing only the incremental computing power leased from the massive server farms maintained by Amazon, Microsoft, and Google.
+
+[TODO: IMAGE COMPARING TWO WEB APPLICATIONS SHOWING DESIGN DIFFERENCES]
+
+With front-end development less constrained by the relatively small memory and computing power of consumer devices, the challenge shifted from optimizing device performance to building compelling product experiences. It made more room for design and increased the importance of customer empathy when building software. Compare almost any enterprise web application built prior to 2008 with the explosion of customer-centric, mobile-first products built after 2008. The former look like they were built by backend developers with little regard for usability; the latter make technology serve what customers want, even when it's not computationally optimal. Interviews for front-end developers continued testing for skills that mattered when web applications were constrained by the devices they ran on; the standard whiteboard interview hasn't evolved to test what really matters when building delightful customer-centric experiences.
+
+### Web Development Was Built for Novices
+
+JavaScript is the world's most popular programming language.[^footnote1] It is also possibly the world's most hated programming language.
+
+[TODO: A SHORT HISTORY OF JAVASCRIPT AND THE DOM]
+
+### Architects Aren't Web Development Experts
+
+[TODO: Framing fact from Stack Overflow surveys about background of architects, % coming from non-frontend roles]
+
+Interviewers who are not experts in the interview subject are more likely to lean on factual questions, even when the facts are trivial. Questions like "What is a closure?" or "What is an IIFE?" are so popular because they have factual answers that do not rely on the interviewer having any subject matter expertise about the question. Candidates are routinely evaluated by the jargon they use in these answers, not whether they can actually use a closure to hide a variable from outer scopes or use an IIFE to immediately define and call a function.
+
+Some questions -- like "What is the difference between a method and a function?" -- have almost no signal about whether someone would be a good front-end developer and routinely trip-up even professionals with years of hands-on experience. They belong to a category of questions that are meaningful in other languages -- usually the language in which the interviewer has expertise -- but have little value in assessing a front-end developer's JavaScript skills.
+
 
 ## Why Outdated Interviews Hurt Engineering Teams
+
+These practices have unintentionally increased the number of false negatives in front-end interviewing: people who would be excellent developers are not hired because they stumbled on a question with little correlation to front-end developer skill.
+
+Teams that do not have good ways to evaluate front-end developer talent during the interview process also lack ways to evaluate, develop, and retain their front-end talent after hiring. A better interview process also help organizations have clear standards that bring employees in at the right band and evaluate their progress toward the next band. Developers at the "Software Engineer II" level should be evaluated for "Software Engineer III" promotion against the same general criteria as new hires into that band. In reality, new hires are evaluated by arbitrary trivia to get a job offer then evaluated by performance for promotions. Things don't have to be this way, and this book aims to illustrate how performance can be the main criterion for hiring -- even with only a few hours with a candidate before extending an offer.
+
+## What Has Changed in Our Industry
+
+[^footnote1]: JavaScript language survey from Stack Overflow
